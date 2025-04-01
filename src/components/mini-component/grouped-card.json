@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mini_component_grouped_cards",
+  "info": {
+    "displayName": "Grouped Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

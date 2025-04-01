@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.simple-detail",
+        "components.hero",
+        "components.grouped-cards",
+        "components.detailed-features",
+        "components.contact",
+        "components.collapsible",
+        "components.block"
+      ]
+    }
+  }
+}

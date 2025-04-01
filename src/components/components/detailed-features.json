@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_detailed_features",
+  "info": {
+    "displayName": "Detailed Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "component_id": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "sections": {
+      "displayName": "Detailed Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "mini-component.detailed-feature"
+    }
+  }
+}

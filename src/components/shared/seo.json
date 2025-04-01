@@ -20,7 +20,18 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metaProps": {
+      "displayName": "metaProps",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta-props"
+    },
+    "metaUrl": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_simple_details",
+  "info": {
+    "displayName": "Simple Detail"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_grouped_cards",
+  "info": {
+    "displayName": "Grouped Cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "sections": {
+      "displayName": "Grouped Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "mini-component.grouped-card"
+    }
+  }
+}

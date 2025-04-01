@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_mini_component_detailed_feature_titles",
+  "info": {
+    "displayName": "Detailed Feature Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "highlightColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "text": {
+      "type": "json"
+    }
+  }
+}

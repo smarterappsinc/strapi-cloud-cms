@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_collapsibles",
+  "info": {
+    "displayName": "Collapsible",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sections": {
+      "displayName": "Collapsible Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "mini-component.collapsible-item"
+    },
+    "component_id": {
+      "type": "string"
+    }
+  }
+}

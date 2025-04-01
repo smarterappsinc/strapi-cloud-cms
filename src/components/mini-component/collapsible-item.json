@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mini_component_collapsible_items",
+  "info": {
+    "displayName": "Collapsible Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

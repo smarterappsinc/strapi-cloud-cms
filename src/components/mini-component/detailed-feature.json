@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_mini_component_detailed_features",
+  "info": {
+    "displayName": "Detailed Feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "Detailed Feature Title",
+      "type": "component",
+      "repeatable": false,
+      "component": "mini-component.detailed-feature-title"
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "textColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  }
+}
